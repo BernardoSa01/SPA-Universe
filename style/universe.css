@@ -1,0 +1,19 @@
+@import url(../style.css);
+
+body {
+  background-image: url(../assets/mountains-universe02.png);
+}
+
+/* Usando :nth-child para aplicar estilos aos links clicados */
+nav a:nth-child(3) {
+  color: var(--nav-focus-color);
+  font-size: 2.4rem;
+  font-weight: 700;
+}
+
+.container {
+  margin-left: 10.2rem;
+  margin-top: 6.3rem;
+
+  gap: 1.6rem;
+}

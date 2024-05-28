@@ -1,0 +1,39 @@
+@import url(../style.css);
+
+body {
+  background-image: url(../assets/mountains-universe-1.png);
+}
+
+/* Usando :nth-child para aplicar estilos aos links clicados */
+nav a:nth-child(2) {
+  color: var(--nav-focus-color);
+  font-size: 2.4rem;
+  font-weight: 700;
+}
+
+.container {
+  margin: 0 auto; 
+  margin-top: 17.2rem;
+
+  align-items: center;
+  gap: 2.4rem;
+}
+
+.button {
+  color: var(--button-color);
+
+  padding: 1.2rem 3.2rem;
+  border: 2px solid var(--button-color);
+  border-radius: 5px;
+
+  font-size: 1.4rem;
+  line-height: 2.4rem;
+  font-weight: 700;
+  cursor: pointer;
+}
+
+.button:hover {
+  color: var(--button-hover-color);
+  background: var(--button-color);
+
+}
