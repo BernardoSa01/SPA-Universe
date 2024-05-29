@@ -19,21 +19,3 @@ nav a:nth-child(2) {
   gap: 2.4rem;
 }
 
-.button {
-  color: var(--button-color);
-
-  padding: 1.2rem 3.2rem;
-  border: 2px solid var(--button-color);
-  border-radius: 5px;
-
-  font-size: 1.4rem;
-  line-height: 2.4rem;
-  font-weight: 700;
-  cursor: pointer;
-}
-
-.button:hover {
-  color: var(--button-hover-color);
-  background: var(--button-color);
-
-}
