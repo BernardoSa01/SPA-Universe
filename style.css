@@ -20,7 +20,7 @@ body {
 
   background-color: #010C10;
   background-size: cover;
-  transition: background-image .5s ease;
+  transition: background-image 500ms ease;
 }
 
 nav {
@@ -53,6 +53,8 @@ a {
   flex-direction: column;
 
   max-width: 64.8rem;
+
+  animation: topdown 700ms 350ms backwards;
 }
 
 .container h1 {
@@ -80,12 +82,40 @@ a {
   line-height: 2.4rem;
   font-weight: 700;
   cursor: pointer;
+
+  transition: all 500ms ease;
 }
 
 .button:hover {
   color: var(--button-hover-color);
   background: var(--button-color);
 
+  transform: scale(1.1);
+  transition: all 500ms ease;
+}
+
+@keyframes topdown {
+  0% {
+      opacity: 0;
+      transform: translateY(-30px);
+  }
+  
+  100% {
+      opacity: 1;
+      transform: translateY(0);
+  }
+}
+
+@keyframes rightleft {
+  0% {
+      opacity: 0;
+      transform: translateX(30px);
+  }
+  
+  100% {
+      opacity: 1;
+      transform: translateX(0);
+  }
 }
 
 
