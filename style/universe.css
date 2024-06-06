@@ -2,6 +2,7 @@
 
 body {
   background-image: url(../assets/mountains-universe02.png);
+  transition: background-image 500ms ease;
 }
 
 /* Usando :nth-child para aplicar estilos aos links clicados */
