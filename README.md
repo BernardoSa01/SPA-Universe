@@ -2,6 +2,9 @@
 
 <p align="center">Programa promovido no nível 6 da trilha Explorer da Rocketseat, cujo objetivo foi a criação de uma página de exploração do universo utilizando o conceito de Single Page Application (SPA).</p>
 
+- [Acesse o projeto finalizado, online](https://spa-universe-eight-black.vercel.app/)
+<br><br>
+
 ![Desafio "SPA Universe"](./assets/cover.png)
 
 O que foi abordado nesse desafio:
