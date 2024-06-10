@@ -1,4 +1,4 @@
-# SPA-Universe
+<h1 align="center"> SPA Universe </h1>
 
 <p align="center">Programa promovido no nível 6 da trilha Explorer da Rocketseat, cujo objetivo foi a criação de uma página de exploração do universo utilizando o conceito de Single Page Application (SPA).</p>
 
